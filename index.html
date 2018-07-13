@@ -1,0 +1,54 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta charset="=UTF-8">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylsheet" href="./assets/css/style.css">
+     <!-- Bellow are the cdn for materalize -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+              <div class="card darken-1 z-depth-3 center">
+                <div class="card-content black-text">
+                  <span class="card-title">
+                      <b>Hangman Game!</b>
+                      <br> 
+                      Pick a letter to get started. The theme is dogs!</span>
+                  <p>
+                      <hr>
+                      <div>Wins: <span id="wins">0</span></div>
+                      <div>Losses: <span id="losses">0</span></div>
+                      <div>Guesses Left: <span id="guesses-left">10</span> </div>
+                      <div>Incorrect Guesses: <span id="incorrect-guesses">10</span> </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+                <div class="card darken-1 z-depth-3 center">
+                  <div class="card-content black-text match-card">
+                    <span class="card-title" id="game-div"Card Title</span>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <audio id="myAudio">
+      <source src="./assets/sound/woof.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="myAudio2">
+      <source src="./assets/sound/cry.mp3" type="audio/mpeg">
+    </audio>
+
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+</html>
+</DOCTYPE>

@@ -7,3 +7,5 @@ Hangman game with a dog them! If you win, the dog will bark in delight. If you l
 * CSS
 * Javascript
 * Materialize
+
+[Click here to play](https://hangman-game-lgumwuolda.now.sh)
